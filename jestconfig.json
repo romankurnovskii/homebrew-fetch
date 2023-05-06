@@ -1,8 +1,7 @@
 {
-  "transform": {
-    "^.+\\.jsx?$": "babel-jest"
-  },
-  "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.jsx?$",
-  "moduleFileExtensions": ["js", "jsx"],
-  "collectCoverage": true
+  "testEnvironment": "node",
+  "transform": {},
+  "moduleNameMapper": {
+    "^src/(.*)$": "<rootDir>/src/$1"
+  }
 }

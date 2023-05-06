@@ -1,17 +1,16 @@
 {
-  "name": "your-package-name",
+  "name": "homebrew-fetch",
   "version": "0.1.0",
-  "description": "A brief description of your package",
-  "main": "dist/index.js",
-  "bin": "dist/bin.js",
+  "description": "A package to fetch recent casks and formulas from Homebrew repositories",
+  "main": "src/index.js",
+  "bin": "src/bin.js",
+  "type": "module",
   "scripts": {
-    "build": "babel src --out-dir dist",
-    "test": "jest --config jestconfig.json",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --config jestconfig.json",
     "lint": "eslint src",
     "lint:fix": "eslint --fix",
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm run build && npm test && npm run prettier && npm run lint && npm run lint:fix"
+    "prepublishOnly": "npm test && npm run prettier && npm run lint:fix && npm run lint"
   },
   "keywords": [],
   "author": {
@@ -21,17 +20,17 @@
   },
   "license": "MIT",
   "dependencies": {
-    "argparse": "^2.0.1"
+    "argparse": "^2.0.1",
+    "cross-fetch": "3.1.5",
+    "simple-git": "3.18.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.14.8",
-    "@babel/core": "^7.14.8",
-    "@babel/preset-env": "^7.14.9",
-    "babel-eslint": "^10.1.0",
+    "@jest/globals": "29.5.0",
     "eslint": "^8.40.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "jest": "^ 29.5.0",
+    "fetch-mock": "9.11.0",
+    "jest": "29.5.0",
     "prettier": "^2.3.2"
   },
   "files": [
@@ -39,13 +38,13 @@
     "LICENSE",
     "README.md"
   ],
-  "homepage": "https://github.com/romankurnovskii/PACKAGE_NAME#readme",
+  "homepage": "https://github.com/romankurnovskii/homebrew-fetch#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/romankurnovskii/PACKAGE_NAME.git"
+    "url": "git+https://github.com/romankurnovskii/homebrew-fetch.git"
   },
   "bugs": {
-    "url": "https://github.com/romankurnovskii/PACKAGE_NAME/issues"
+    "url": "https://github.com/romankurnovskii/homebrew-fetch/issues"
   },
   "engines": {
     "node": ">=14.0.0"
