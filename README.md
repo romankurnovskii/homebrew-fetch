@@ -1,10 +1,14 @@
-<h1 align="center">homebrew-fetch<br>Fetch recent casks and formulas from Homebrew repositories.</h1>
+<center>
+<h1 align="center">homebrew-fetch<br></h1>
+
+Fetch recent casks and formulas from Homebrew repositories.
 
 <p align="center">
   <img src="https://github.com/romankurnovskii/BrewMate/blob/main/assets/icon1024nocorner.png?raw=true" alt="homebrew-fetch"
   width="150">
 </p>
 
+</center>
 
 
 [![NPM version][npm-image]][npm-url]
@@ -78,6 +82,9 @@ homebrew-fetch --cask
 
 ```sh
 npm install homebrew-fetch
+
+# for global usage
+npm install -g homebrew-fetch
 ```
 
 or
@@ -88,8 +95,8 @@ yarn add homebrew-fetch
 
 ## API
 
-- getRecentCasks(limit?: number, token?: string) => Promise<object>
-- getRecentFormulas(limit?: number, token?: string) => Promise<object>
+- **getRecentCasks(limit?: number, token?: string)** => Promise<object>
+- **getRecentFormulas(limit?: number, token?: string)** => Promise<object>
 
 
 [package-name]: homebrew-fetch
