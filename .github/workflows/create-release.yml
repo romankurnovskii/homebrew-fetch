@@ -20,7 +20,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
@@ -31,8 +31,8 @@ jobs:
       - name: Get Version
         id: get_version
         run: |
-            echo "VERSION=$(jq -r .version package.json)" >> $GITHUB_ENV
-            echo "VERSION=$(jq -r .version package.json)" >> $GITHUB_OUTPUT
+          echo "VERSION=$(jq -r .version package.json)" >> $GITHUB_ENV
+          echo "VERSION=$(jq -r .version package.json)" >> $GITHUB_OUTPUT
 
       - name: Release
         uses: softprops/action-gh-release@v1
