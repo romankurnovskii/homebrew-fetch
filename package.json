@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "argparse": "^2.0.1",
-    "simple-git": "3.18.0"
+    "simple-git": "3.20.0"
   },
   "devDependencies": {
     "@jest/globals": "29.6.2",
