@@ -71,10 +71,8 @@ async function getItemNamesFromClonedRepo(limit, repoName, subPath) {
 function processItemFiles(
   files,
   resultItems,
-  namePrefix = CASKS_FOLDER_PREFIX
+  namePrefix = CASKS_FOLDER_PREFIX // 'Casks' | 'Formula'
 ) {
-  // namePrefix = 'Casks' | 'Formula'
-
   for (const file of files) {
     if (file.filename.startsWith(namePrefix)) {
       const fileStatus = file.status;

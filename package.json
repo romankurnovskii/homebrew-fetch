@@ -1,6 +1,6 @@
 {
   "name": "homebrew-fetch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A package to fetch recent casks and formulas from Homebrew repositories",
   "main": "src/index.js",
   "bin": "src/bin.js",
