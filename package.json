@@ -1,6 +1,6 @@
 {
   "name": "homebrew-fetch",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "CLI tool: fetches casks and formulas from Homebrew repositories",
   "main": "src/index.js",
   "bin": "src/bin.js",
@@ -24,11 +24,11 @@
   },
   "devDependencies": {
     "@jest/globals": "30.3.0",
-    "jest": "30.3.0",
-    "eslint": "^10.2.1",
+    "eslint": "^10.9.1",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.2.1",
-    "prettier": "^3.4.2"
+    "eslint-plugin-prettier": "^5.5.6",
+    "jest": "30.3.0",
+    "prettier": "^3.9.6"
   },
   "files": [
     "dist",
