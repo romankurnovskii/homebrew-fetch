@@ -23,7 +23,7 @@
     "simple-git": "3.36.0"
   },
   "devDependencies": {
-    "@jest/globals": "30.3.0",
+    "@jest/globals": "30.4.1",
     "jest": "30.3.0",
     "eslint": "^10.2.1",
     "eslint-config-prettier": "^10.1.8",
