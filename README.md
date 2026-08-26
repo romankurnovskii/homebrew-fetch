@@ -4,8 +4,8 @@
 Fetch recent casks and formulas from Homebrew repositories.
 
 <p align="center">
-  <img src="https://github.com/romankurnovskii/BrewMate/blob/main/assets/icon1024nocorner.png?raw=true" alt="homebrew-fetch"
-  width="150">
+  <img src="https://raw.githubusercontent.com/romankurnovskii/BrewMate/main/assets/android-chrome-512x512.png" alt="homebrew-fetch"
+   width="150">
 </p>
 
 </center>
@@ -105,7 +105,7 @@ yarn add homebrew-fetch
 [github-license]: https://img.shields.io/github/license/romankurnovskii/homebrew-fetch
 [github-license-url]: https://github.com/romankurnovskii/homebrew-fetch/blob/main/LICENSE
 [npm-javascript]: https://img.shields.io/npm/types/homebrew-fetch
-[build-status]: https://github.com/romankurnovskii/homebrew-fetch/workflows/CI/badge.svg
-[build-status-url]: https://github.com/romankurnovskii/homebrew-fetch
+[build-status]: https://github.com/romankurnovskii/homebrew-fetch/actions/workflows/test-environments.yml/badge.svg
+[build-status-url]: https://github.com/romankurnovskii/homebrew-fetch/actions
 [install-size]: https://packagephobia.com/badge?p=homebrew-fetch
 [install-size-url]: https://packagephobia.com/result?p=homebrew-fetch
