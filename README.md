@@ -1,20 +1,19 @@
 <center>
-<h1 align="center">homebrew-fetch<br></h1>
-
-Fetch recent casks and formulas from Homebrew repositories.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/romankurnovskii/BrewMate/main/assets/android-chrome-512x512.png" alt="homebrew-fetch"
    width="150">
 </p>
 
-</center>
+<h1 align="center">homebrew-fetch<br></h1>
 
+Fetch recent casks and formulas from Homebrew repositories.
+
+</center>
 
 [![NPM version][npm-image]][npm-url]
 ![npm-javascript]
 [![License][github-license]][github-license-url]
-
 
 ## About
 
@@ -26,7 +25,6 @@ Fetch recent casks and formulas from Homebrew repositories.
 - Support for GitHub personal access tokens
 
 ## 📖 Usage
-
 
 ```js
 import { getRecentCasks, getRecentFormulas } from 'homebrew-fetch';
@@ -97,7 +95,6 @@ yarn add homebrew-fetch
 
 - **getRecentCasks(limit?: number, token?: string)** => Promise<object>
 - **getRecentFormulas(limit?: number, token?: string)** => Promise<object>
-
 
 [package-name]: homebrew-fetch
 [npm-url]: https://www.npmjs.com/package/[package-name]
